@@ -1,0 +1,41 @@
+
+
+.storyPoint{
+  font-size: 200px;
+  width: 100%;
+  font-family: Georgia;
+  text-align: center;
+}
+
+
+
+button{
+width: 35%;/*长度*/
+background: #fff;/*背景颜色*/
+color: #000;/*字体颜色*/
+border-radius:5px; /*边角原弧度*/
+}
+button::after{
+border: 0px solid #969696;/*边框*/
+}
+
+.buttonLeft{
+  position: relative;
+  left: -80px;
+  top: 46px;
+  background: #D8DFB7;
+}
+.buttonRight{
+  position: relative;
+  left: 80px;
+  background: #D1E2E8;
+}
+.button-group{
+  width: 100%;
+  position: relative;
+  top:-20px;
+}
+.agile-bb{
+  border-radius:10px;
+  background:#f5f6f5;
+}

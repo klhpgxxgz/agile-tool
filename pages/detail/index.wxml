@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container agile-bb">
+  <view class='storyPoint' bindtap="cancel">
+      {{number}}
+  </view>
+  
+</view>
+<view class="button-group">
+      <button class="buttonLeft" bindtap="cancel"> cancel </button>
+      <button class="buttonRight" bindtap="confirm"> confirm </button>
+  </view>
